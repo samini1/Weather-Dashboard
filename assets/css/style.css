@@ -4,6 +4,24 @@ header {
     background: -webkit-linear-gradient(left, #6caafc 0%,#6e63b7 100%);
 }
 
-div {
-    min-height: 10px;    
+#history {
+    padding: 0;
+}
+
+.history-btn {
+    background-color: rgb(198, 202, 206);
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px; 
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+#search-btn {
+    background-color: lightskyblue;
+    color: white;
 }

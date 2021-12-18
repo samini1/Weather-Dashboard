@@ -16,24 +16,24 @@
         <div class ="row">
             <div class = "col-4">
                 <p class ="search-header"> Search for a City: </p>
-                <div class ="input-group">
-                    <input id ="city-search" type="text" class ="form-control" placeholder="city name">
+                <div class ="input-group border-bottom border-dark">
+                    <input id ="city-search" type="text" class ="form-control mb-2" placeholder="city name">
                               
                 </div>
                  <div class="row">
-                        <button id ="search-btn" class ="btn">
+                        <button type ="button" id ="search-btn" class ="btn">
                              Search
                         </button>
-                    </div>         
-                <div id="history"></div>
+                        <div id="history" class ="col-12"></div>
+                    </div>                       
             </div>
             <div class ="col-8">
                 <div class ="row">
-                    <div id = "city-display" class ="col-12 border border-dark">
-                        <div id="city-name"></div>
+                    <div id = "city-display" class ="col-12 border border-dark m-3">
+                        <h3 id="city-name"></h3>
                             
                         <div class ="row">
-                            <div class ="col-12">
+                            <div class ="col-12" >
                                 <p id = "temperature"></p>
                             </div>
                         </div>
@@ -59,12 +59,12 @@
                         <h2>5-day Forecast</h2>
                     </div>                    
                 </div>
-                <div id = "five-day-forecast" class ="row forecast">
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
+                <div id = "five-day-forecast" class ="row">
+                    <div class="col forecast"></div>
+                    <div class="col forecast"></div>
+                    <div class="col forecast"></div>
+                    <div class="col forecast"></div>
+                    <div class="col forecast"></div>
                 </div>
             </div>
         </div>            
