@@ -56,7 +56,14 @@ function displayWeather(lat, lon) {
             currentTemp.textContent = "Temperature: "+ farenheit + '\u00B0' + "F"  + "/" + celsius + '\u00B0' + "C" ;
             currentWind.textContent = "Wind Speed: " + data.current.wind_speed + "MPH" ;
             currentHumidity.textContent = "Humidity: " + data.current.humidity + "%";
-            currentUV.textContent = "UV Index: " + data.current.uvi;    
+            currentUV.textContent = "UV Index: " + data.current.uvi;
+                if (data.current.uvi > 5) {
+                    currentUV.setAttribute("class", "severe")                    
+                } else if (data.current.uvi > 2) {
+                    currentUV.setAttribute("class", "moderate")   
+                } else {
+                    currentUV.setAttribute("class", "low")   
+                }    
             
             //five day forecast appended through for loop
             let forecastEls = document.querySelectorAll(".forecast");
@@ -109,19 +116,12 @@ function findCity (searchInput) {
             //call display weather with latitude and longitude values obtained from search function
             displayWeather(lat, lon) 
         
-        });
-       
-    });
-    
+        });       
+    });    
 }
 
 
 // push previous search results to display below search bar
-
-// let displaySearchHistory = function() {
-//     displayWeather(searchHistory[searchHistory.length]);
-// }
-
 //5-day forecast
 
 

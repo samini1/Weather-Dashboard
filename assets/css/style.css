@@ -25,3 +25,28 @@ header {
     background-color: lightskyblue;
     color: white;
 }
+
+.forecast {
+    background-color: rgb(80, 80, 105);
+    color: white;
+    margin: 5px;    
+}
+
+#uvIndex {
+    width: 10%;
+}
+
+.low {
+    background-color: chartreuse;
+    color: black;    
+}
+
+.moderate {
+    background-color: coral;
+    color: white; 
+}
+
+.severe {
+    background-color: crimson;
+    color: white; 
+}
