@@ -7,14 +7,14 @@ Clicking on previous search terms should recall the weather data for those citie
 Data updated should include a weather icon, temperature, wind speed, and the uv index.
 
 ## Technology
-HTML
-CSS
-Javascript
-Bootstrap
-Moment.js
-One Call API from OpenWeather
-GeoCoding API from OpenWeather
+-HTML
+-CSS
+-Javascript
+-Bootstrap
+-Moment.js
+-One Call API from OpenWeather
+-GeoCoding API from OpenWeather
 
-Website:https://samini1.github.io/Weather-Dashboard/
+##Website:https://samini1.github.io/Weather-Dashboard/
 
-Created by Syrous Amini
+##Created by Syrous Amini
